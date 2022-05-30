@@ -28,7 +28,7 @@ function RightSideBar() {
         <input placeholder="Search Twitter" type="text" />
       </div>
       <div className="trendBar__container">
-        <h2>Trends for you</h2>
+        <h2>Who to follow</h2>
         {people.map((who) => {
           return (
             <div className="profile__container" key={who.key}>
@@ -49,7 +49,7 @@ function RightSideBar() {
         <div className="more__text">Show more</div>
       </div>
       <div className="right__container">
-        <h2>Who to follow</h2>
+        <h2>Trends for you</h2>
         <div>
           {trend.map((myTrend) => {
             return (
