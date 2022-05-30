@@ -24,7 +24,7 @@
   border-radius: 20px;
 }
 
-.trendBar__container > h2 {
+.trendBar__container > h2 .right__container > h2 {
   font-size: 18px;
   font-weight: 800;
 }
@@ -33,7 +33,6 @@
   display: flex;
   align-items: flex-end;
   align-items: center;
-  margin-bottom: 20px;
   justify-content: space-between;
 }
 
@@ -76,6 +75,12 @@
 .profile__id {
   color: darkgray;
 }
+.trendBar__container .profile__img__al {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
+}
 
 .trending {
   padding-bottom: 20px;
@@ -91,6 +96,7 @@
 .trending__subtext__tweet {
   font-size: 15px;
   color: darkgray;
+  padding-top: 10px;
 }
 
 .more__text {
@@ -102,4 +108,20 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.right__container {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.trending__header {
+  padding-bottom: 10px;
+}
+
+.trending__subtext {
+  padding-bottom: 10px;
 }
