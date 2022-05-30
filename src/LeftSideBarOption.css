@@ -1,0 +1,23 @@
+.leftSideBarOption {
+  display: flex; /*아이콘이랑 나란히*/
+  align-items: center;
+  cursor: pointer;
+}
+
+/*호버효과*/
+.leftSideBarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color); /*css변수*/
+  transition: color 100ms ease-out; /*호버할 때 딜레이효과*/
+}
+
+.leftSideBarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.leftSideBarOption > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 20px;
+}
