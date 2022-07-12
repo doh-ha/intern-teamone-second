@@ -5,6 +5,8 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PublishOutlinedIcon from "@mui/icons-material/PublishOutlined";
+import axios from "axios";
+
 
 const Post = forwardRef(
   ({ displayName, username, text, image, avatar }, ref) => {
